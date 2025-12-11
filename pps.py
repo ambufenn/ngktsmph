@@ -168,7 +168,7 @@ def classify_with_gemini(image_path=None, image_bytes=None):
         prompt = (
             "You are an assistant that classifies household waste images into a short label (one of: 'Plastik PET', 'HDPE', 'Kertas', 'Kaca', 'Logam', 'Tekstil', 'Minyak Jelantah', 'Organik', 'Tidak Dapat Didaur Ulang'). "
             "Also estimate contamination level as 'Clean', 'Slightly contaminated', or 'Contaminated'. "
-            "Return a single-line comma-separated answer like: LABEL, CONTAMINATION.
+            "Return a single-line comma-separated answer like: LABEL, CONTAMINATION."
 
 "
             "Image (base64):
